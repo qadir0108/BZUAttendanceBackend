@@ -1,8 +1,21 @@
-# BackendServer
- D:\GitHub\
+# BZUAttendance Backend Server
 
-1. Install
+**This is fake backend server for BZU Attendance App with static data,
+and It does not save data into database.**
+
+**Technologies Used:**
+- NodeJS https://nodejs.org/en/download/
+- Express https://expressjs.com/
+
+**Steps to Run:**
+
+1. Install NodeJS
+
+2. Install packages
+npm install
+
+3. Install nodemon
 npm install nodemon --global
 
-2. Run backend as
+3. Run backend API as
 nodemon app.js
