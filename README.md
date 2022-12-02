@@ -12,10 +12,10 @@ and It does not save data into database.**
 1. Install NodeJS
 
 2. Install packages
-npm install
+    npm install
 
 3. Install nodemon
-npm install nodemon --global
+    npm install nodemon --global
 
 3. Run backend API as
-nodemon app.js
+    nodemon app.js
