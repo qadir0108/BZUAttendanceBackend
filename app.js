@@ -71,34 +71,35 @@ app.post('/timetable', (req, res) => {
 app.post('/attendance/history', (req, res) => {
   console.log('request recived');
 
-  var result = 
-  [
-    {
-      "Date": "20221125",
-      "TimeSlot": 1,
-      "SubjectCode": "IT205",
-      "Subject": "Data Structure",
-      "Teacher": "Kamran Qadir",
-      "Status": "PRESENT",
-    },
-    {
-      "Date": "20221125",
-      "TimeSlot": 2,
-      "SubjectCode": "IT307",
-      "Subject": "Visual Programming",
-      "Teacher": "Kamran Qadir",
-      "Status": "PRESENT",
-    },
-    {
-      "Date": "20221125",
-      "TimeSlot": 3,
-      "SubjectCode": "IT403",
-      "Subject": "Mobile App Development",
-      "Teacher": "Kamran Qadir",
-      "Status": "ABSENT",
-    },
-  ];
-
+  var result = {
+    "AttendanceHistory" : [
+      {
+        "Date": "20221125",
+        "TimeSlot": "1",
+        "SubjectCode": "IT205",
+        "Subject": "Data Structure",
+        "Teacher": "Kamran Qadir",
+        "Status": "PRESENT",
+      },
+      {
+        "Date": "20221125",
+        "TimeSlot": "2",
+        "SubjectCode": "IT307",
+        "Subject": "Visual Programming",
+        "Teacher": "Kamran Qadir",
+        "Status": "PRESENT",
+      },
+      {
+        "Date": "20221125",
+        "TimeSlot": "3",
+        "SubjectCode": "IT403",
+        "Subject": "Mobile App Development",
+        "Teacher": "Kamran Qadir",
+        "Status": "ABSENT",
+      },
+    ]
+  } 
+;
   res.json(result);
   console.log('response sent');
 })
