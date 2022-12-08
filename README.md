@@ -1,3 +1,5 @@
+[![BZU](https://bzu.edu.pk/images/logo1.png)](https://www.bzu.edu.pk)
+
 # BZUAttendance Backend Server
 
 **This is fake backend server for BZU Attendance App with static data,
