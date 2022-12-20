@@ -2,12 +2,12 @@
 
 # BZUAttendance Backend Server
 
-**This is fake backend server for BZU Attendance App with static data,
-and It does not save data into database.**
+**This is backend server for BZU Attendance App, API saves data into MongoDB database.**
 
 **Technologies Used:**
 - NodeJS https://nodejs.org/en/download/
 - Express https://expressjs.com/
+- MongoDB https://www.mongodb.com/
 
 **Steps to Run:**
 
